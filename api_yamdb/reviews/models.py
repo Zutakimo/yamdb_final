@@ -4,6 +4,7 @@ from api.validators import (max_score_validator, max_year_validator,
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
+
 class RoleChoices(models.TextChoices):
     USR = 'user'
     MDR = 'moderator'
